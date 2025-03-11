@@ -43,9 +43,9 @@ OpenManus Web界面由李璇开发，旨在为OpenManus框架提供一个易用�
 
 1. 克隆仓库:
 ```bash
-git clone https://github.com/yourusername/OpenManus-Web.git
+git clone https://github.com/Dbbc00/OpenManus-Web.git
 cd OpenManus-Web
-```
+
 
 2. 安装依赖:
 ```bash
