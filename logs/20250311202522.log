@@ -1,0 +1,14 @@
+2025-03-11 20:25:23.630 | INFO     | __main__:main:53 - WebSocket支持已启用
+2025-03-11 20:25:23.630 | INFO     | __main__:main:58 - ==================================================
+2025-03-11 20:25:23.630 | INFO     | __main__:main:59 - 启动OpenManus Web服务...
+2025-03-11 20:25:23.631 | INFO     | __main__:main:60 - 静态文件目录: D:\OpenManus-main\static
+2025-03-11 20:25:23.631 | INFO     | __main__:main:61 - 访问地址: http://localhost:8000
+2025-03-11 20:25:23.631 | INFO     | __main__:main:62 - ==================================================
+2025-03-11 20:25:25.132 | INFO     | __main__:open_browser:38 - 自动打开浏览器：http://localhost:8000
+2025-03-11 20:25:26.395 | INFO     | app.web.api:websocket_endpoint:71 - WebSocket连接已建立: m84gs9iq6w0thnvto4a
+2025-03-11 20:26:11.898 | INFO     | app.web.api:websocket_endpoint:103 - 收到消息 [message]: 1+10999对于多少...
+2025-03-11 20:26:11.898 | INFO     | app.web.api:websocket_endpoint:117 - 执行代理: 1+10999对于多少...
+2025-03-11 20:26:11.898 | ERROR    | app.web.api:websocket_endpoint:128 - 处理消息错误: 'NoneType' object has no attribute 'run'
+2025-03-11 20:27:29.956 | INFO     | app.web.api:websocket_endpoint:89 - WebSocket连接已断开: m84gs9iq6w0thnvto4a
+2025-03-11 20:27:29.957 | INFO     | app.web.api:websocket_endpoint:135 - WebSocket连接关闭: m84gs9iq6w0thnvto4a
+2025-03-11 20:27:29.957 | INFO     | app.web.api:disconnect:41 - 客户端 m84gs9iq6w0thnvto4a 已断开连接

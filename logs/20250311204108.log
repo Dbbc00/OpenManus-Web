@@ -1,0 +1,298 @@
+2025-03-11 20:41:09.477 | INFO     | __main__:main:53 - WebSocket支持已启用
+2025-03-11 20:41:09.477 | INFO     | __main__:main:58 - ==================================================
+2025-03-11 20:41:09.477 | INFO     | __main__:main:59 - 启动OpenManus Web服务...
+2025-03-11 20:41:09.477 | INFO     | __main__:main:60 - 静态文件目录: D:\OpenManus-main\static
+2025-03-11 20:41:09.478 | INFO     | __main__:main:61 - 访问地址: http://localhost:8000
+2025-03-11 20:41:09.478 | INFO     | __main__:main:62 - ==================================================
+2025-03-11 20:41:09.588 | INFO     | app.web.api:websocket_endpoint:172 - WebSocket连接已建立: m84gv8oax3m7xlk5wi
+2025-03-11 20:41:09.592 | INFO     | app.web.api:get_agent:62 - 为客户端创建新代理实例: m84gv8oax3m7xlk5wi
+2025-03-11 20:41:10.793 | INFO     | app.web.api:create_agent:76 - 创建新的Manus代理实例成功
+2025-03-11 20:41:10.821 | INFO     | app.web.api:websocket_endpoint:172 - WebSocket连接已建立: m84h3w0vw9c6te0nwms
+2025-03-11 20:41:10.822 | INFO     | app.web.api:get_agent:62 - 为客户端创建新代理实例: m84h3w0vw9c6te0nwms
+2025-03-11 20:41:10.822 | INFO     | app.web.api:create_agent:76 - 创建新的Manus代理实例成功
+2025-03-11 20:41:10.979 | INFO     | __main__:open_browser:38 - 自动打开浏览器：http://localhost:8000
+2025-03-11 20:41:12.186 | INFO     | app.web.api:websocket_endpoint:172 - WebSocket连接已建立: m84hcjar2p9abh19shw
+2025-03-11 20:41:12.186 | INFO     | app.web.api:get_agent:62 - 为客户端创建新代理实例: m84hcjar2p9abh19shw
+2025-03-11 20:41:12.187 | INFO     | app.web.api:create_agent:76 - 创建新的Manus代理实例成功
+2025-03-11 20:41:16.892 | INFO     | app.web.api:websocket_endpoint:195 - WebSocket连接已断开: m84h3w0vw9c6te0nwms
+2025-03-11 20:41:16.892 | INFO     | app.web.api:websocket_endpoint:253 - WebSocket连接关闭: m84h3w0vw9c6te0nwms
+2025-03-11 20:41:16.892 | INFO     | app.web.api:disconnect:50 - 连接已移除: m84h3w0vw9c6te0nwms, 剩余活跃连接数: 0
+2025-03-11 20:41:17.597 | INFO     | app.web.api:websocket_endpoint:195 - WebSocket连接已断开: m84gv8oax3m7xlk5wi
+2025-03-11 20:41:17.597 | INFO     | app.web.api:websocket_endpoint:253 - WebSocket连接关闭: m84gv8oax3m7xlk5wi
+2025-03-11 20:41:17.597 | INFO     | app.web.api:disconnect:50 - 连接已移除: m84gv8oax3m7xlk5wi, 剩余活跃连接数: 0
+2025-03-11 20:41:28.218 | INFO     | app.web.api:websocket_endpoint:209 - 收到消息 [message]: 帮我写一个Python爬虫，抓取豆瓣Top250电影...
+2025-03-11 20:41:28.218 | INFO     | app.web.api:websocket_endpoint:226 - 执行代理: 帮我写一个Python爬虫，抓取豆瓣Top250电影...
+2025-03-11 20:41:28.219 | INFO     | app.web.api:run_agent_with_reasoning_stream:128 - 开始执行代理，输入内容: 帮我写一个Python爬虫，抓取豆瓣Top250电影...
+2025-03-11 20:41:28.219 | INFO     | app.agent.base:run:137 - Executing step 1/20
+2025-03-11 20:41:38.973 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:41:38.975 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:41:38.975 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['google_search']
+2025-03-11 20:41:38.975 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'google_search'...
+2025-03-11 20:41:39.921 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'google_search' completed its mission! Result: Observed output of cmd `google_search` executed:
+['https://movie.douban.com/top250']
+2025-03-11 20:41:39.923 | INFO     | app.agent.base:run:137 - Executing step 2/20
+2025-03-11 20:42:01.972 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:42:01.972 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:42:01.974 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['browser_use']
+2025-03-11 20:42:01.974 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'browser_use'...
+2025-03-11 20:42:06.884 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'browser_use' completed its mission! Result: Observed output of cmd `browser_use` executed:
+Navigated to https://movie.douban.com/top250
+2025-03-11 20:42:06.885 | INFO     | app.agent.base:run:137 - Executing step 3/20
+2025-03-11 20:42:19.121 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:42:19.122 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:42:19.122 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['browser_use']
+2025-03-11 20:42:19.122 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'browser_use'...
+2025-03-11 20:42:19.141 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'browser_use' completed its mission! Result: Observed output of cmd `browser_use` executed:
+<!DOCTYPE html><html lang="zh-CN" class="ua-windows ua-webkit"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="referrer" content="always">
+    <meta name="google-site-verification" content="ok0wCgT20tBBgo9_zat2iAcimtN4Ftf5ccsh092Xeyw">
+    <title>
+豆瓣电影 Top 250
+</title>
+    
+    <meta name="baidu-site-verification" content="cZdR4xxR7RxmM4zE">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2006 01:00:00 GMT">
+    
+    <link rel="apple-touch-icon" href="https://img1.doubanio.com/cuphead/movie-static/pics/apple-touch-icon.png">
+    <link href="https://img1.doubanio.com/f/vendors/e92483e5e4c9c60cc75cbd8b700a2fd5b5fdf7b0/css/douban.css" rel="stylesheet" type="text/css">
+    <link href="https://img1.doubanio.com/f/vendors/ee6598d46af0bc554cecec9bcbf525b9b0582cb0/css/separation/_all.css" rel="stylesheet" type="text/css">
+    <link href="https://img1.doubanio.com/cuphead/movie-static/base/init.15f4b.css" rel="stylesheet">
+    <script type="text/javascript" defer="" async="" src="https://img3.doubanio.com/dae/fundin/piwik.js"></script><script type="text/javascript" src="//img1.doubanio.com/NWQ3bnN2eS9mL2FkanMvYjFiN2ViZWM0ZDBiZjlkNTE1ZDdiODZiZDc0NzNhNjExYWU3ZDk3My9hZC5yZWxlYXNlLmpz?company_token=kX69T8w1wyOE-dale" async="true"></script><script type="text/javascript">var _head_start = new Date();</script>
+    <script type="text/javascript" src="https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="https://img1.doubanio.com/f/vendors/bdcc3c1ecb6de06ac99661953f4731c39e72af7f/js/douban.js"></script>
+    <script type="text/javascript" src="https://img1.doubanio.com/f/vendors/b0d3faaf7a432605add54908e39e17746824d6cc/js/separation/_all.js"></script>
+    
+<link href="https://img3.doubanio.com/cuphead/movie-static/charts/top_movies.b4c3a.css" rel=...
+2025-03-11 20:42:19.142 | INFO     | app.agent.base:run:137 - Executing step 4/20
+2025-03-11 20:43:08.794 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:43:08.795 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:43:08.795 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['file_saver']
+2025-03-11 20:43:08.795 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'file_saver'...
+2025-03-11 20:43:08.797 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'file_saver' completed its mission! Result: Observed output of cmd `file_saver` executed:
+Content successfully saved to douban_top250.html
+2025-03-11 20:43:08.797 | INFO     | app.agent.base:run:137 - Executing step 5/20
+2025-03-11 20:45:34.818 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:45:34.818 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:45:34.818 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute']
+2025-03-11 20:45:34.818 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:45:34.819 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': "[Errno 2] No such file or directory: 'douban_top250.html'", 'success': False}
+2025-03-11 20:45:34.819 | INFO     | app.agent.base:run:137 - Executing step 6/20
+2025-03-11 20:45:43.599 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:45:43.599 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 2 tools to use
+2025-03-11 20:45:43.600 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute', 'python_execute']
+2025-03-11 20:45:43.600 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:45:43.600 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'D:\\OpenManus-main\n'}
+2025-03-11 20:45:43.602 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:45:43.602 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': "['.gitattributes', '.github', '.gitignore', '.pre-commit-config.yaml', '.venv', 'app', 'assets', 'CODE_OF_CONDUCT.md', 'config', 'Dockerfile', 'douban_scraper.py', 'examples', 'LICENSE', 'logs', 'main.py', 'README.md', 'README_zh.md', 'requirements.txt', 'run_flow.py', 'run_web.py', 'setup.py', 'snake_game.py', 'static', 'web_server.py']\n"}
+2025-03-11 20:45:43.603 | INFO     | app.agent.base:run:137 - Executing step 7/20
+2025-03-11 20:47:18.916 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:47:18.917 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 30 tools to use
+2025-03-11 20:47:18.917 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute']
+2025-03-11 20:47:18.918 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.919 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': "[Errno 2] No such file or directory: 'douban_top250.html'", 'success': False}
+2025-03-11 20:47:18.919 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.920 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'D:\\OpenManus-main\\douban_top250.html\n'}
+2025-03-11 20:47:18.920 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.920 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': "['.gitattributes', '.github', '.gitignore', '.pre-commit-config.yaml', '.venv', 'app', 'assets', 'CODE_OF_CONDUCT.md', 'config', 'douban_scraper.py', 'examples', 'LICENSE', 'logs', 'main.py', 'OpenManus-Web.zip', 'README.md', 'README_zh.md', 'requirements.txt', 'run_flow.py', 'run_web.py', 'setup.py', 'snake_game.py', 'static', 'web_server.py']\n"}
+2025-03-11 20:47:18.921 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.921 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'D:\\OpenManus-main\n'}
+2025-03-11 20:47:18.921 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.921 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.922 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.922 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.924 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.924 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.924 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.924 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.924 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.925 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.926 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.926 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.926 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.927 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.927 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.927 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.928 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.928 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.928 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.929 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.929 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.930 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.930 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.931 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.931 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.932 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.933 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.933 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.933 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.934 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.934 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.935 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.935 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.935 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.935 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.936 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.936 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.937 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.937 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.937 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.938 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.938 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.938 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.939 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.939 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.940 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.941 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.942 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.942 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.943 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.944 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:47:18.944 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:47:18.945 | INFO     | app.agent.base:run:137 - Executing step 8/20
+2025-03-11 20:48:44.328 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:48:44.328 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 11 tools to use
+2025-03-11 20:48:44.328 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute']
+2025-03-11 20:48:44.329 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.329 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.329 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.330 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.330 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.331 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.331 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.331 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.331 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.332 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.332 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.332 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.333 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.333 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.333 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.334 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.334 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.334 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.334 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.336 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.337 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:48:44.337 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:48:44.338 | INFO     | app.agent.base:run:137 - Executing step 9/20
+2025-03-11 20:52:42.619 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:52:42.619 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 14 tools to use
+2025-03-11 20:52:42.619 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute']
+2025-03-11 20:52:42.619 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.620 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.620 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.621 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.621 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.621 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.622 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.622 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.622 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.624 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.624 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.625 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.625 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.626 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.627 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.628 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.628 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.628 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.629 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.629 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.629 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.630 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.630 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.631 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.631 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.631 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.631 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:52:42.632 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:52:42.633 | INFO     | app.agent.base:run:137 - Executing step 10/20
+2025-03-11 20:57:42.964 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:57:42.964 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 7 tools to use
+2025-03-11 20:57:42.965 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute', 'python_execute']
+2025-03-11 20:57:42.965 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:57:42.966 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:57:42.966 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:57:42.966 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:57:42.968 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:57:42.968 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:57:42.968 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:57:42.969 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:57:42.969 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:57:42.969 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:57:42.969 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:57:42.969 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:57:42.969 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:57:42.971 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': 'False\n'}
+2025-03-11 20:57:42.971 | INFO     | app.agent.base:run:137 - Executing step 11/20
+2025-03-11 20:59:50.207 | INFO     | app.web.api:websocket_endpoint:172 - WebSocket连接已建立: m84i0hz3fb7brisxvp
+2025-03-11 20:59:50.207 | INFO     | app.web.api:get_agent:62 - 为客户端创建新代理实例: m84i0hz3fb7brisxvp
+2025-03-11 20:59:50.208 | INFO     | app.web.api:create_agent:76 - 创建新的Manus代理实例成功

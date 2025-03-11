@@ -1,0 +1,19 @@
+# Global LLM configuration
+[llm]
+model = "gpt-4o"
+base_url = "https://api.openai.com/v1"
+api_key = "sk-..." # 替换为你的API密钥
+max_tokens = 4096
+temperature = 0.0
+
+# [llm.vision]  # 如果需要视觉模型支持（DeepSeek 暂未提供视觉模型）
+# model = "gpt-4-turbo-vision"
+# base_url = "https://api.openai.com/v1"
+# api_key = "your-openai-api-key"
+
+# Web服务配置
+[web]
+host = "0.0.0.0"
+port = 8000
+auto_open_browser = true
+debug = false

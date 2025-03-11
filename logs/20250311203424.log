@@ -1,0 +1,56 @@
+2025-03-11 20:34:26.110 | INFO     | __main__:main:53 - WebSocket支持已启用
+2025-03-11 20:34:26.111 | INFO     | __main__:main:58 - ==================================================
+2025-03-11 20:34:26.111 | INFO     | __main__:main:59 - 启动OpenManus Web服务...
+2025-03-11 20:34:26.111 | INFO     | __main__:main:60 - 静态文件目录: D:\OpenManus-main\static
+2025-03-11 20:34:26.111 | INFO     | __main__:main:61 - 访问地址: http://localhost:8000
+2025-03-11 20:34:26.111 | INFO     | __main__:main:62 - ==================================================
+2025-03-11 20:34:26.606 | INFO     | app.web.api:websocket_endpoint:129 - WebSocket连接已建立: m84gv8oax3m7xlk5wi
+2025-03-11 20:34:26.610 | INFO     | app.web.api:get_agent:62 - 为客户端创建新代理实例: m84gv8oax3m7xlk5wi
+2025-03-11 20:34:27.613 | INFO     | __main__:open_browser:38 - 自动打开浏览器：http://localhost:8000
+2025-03-11 20:34:27.752 | INFO     | app.web.api:create_agent:76 - 创建新的Manus代理实例成功
+2025-03-11 20:34:28.772 | INFO     | app.web.api:websocket_endpoint:129 - WebSocket连接已建立: m84h3w0vw9c6te0nwms
+2025-03-11 20:34:28.773 | INFO     | app.web.api:get_agent:62 - 为客户端创建新代理实例: m84h3w0vw9c6te0nwms
+2025-03-11 20:34:28.773 | INFO     | app.web.api:create_agent:76 - 创建新的Manus代理实例成功
+2025-03-11 20:34:34.911 | INFO     | app.web.api:websocket_endpoint:166 - 收到消息 [message]: 1+22121212121对于多少...
+2025-03-11 20:34:34.911 | INFO     | app.web.api:websocket_endpoint:180 - 执行代理: 1+22121212121对于多少...
+2025-03-11 20:34:34.912 | INFO     | app.web.api:run_agent_with_reasoning:99 - 开始执行代理，输入内容: 1+22121212121对于多少...
+2025-03-11 20:34:34.912 | INFO     | app.agent.base:run:137 - Executing step 1/20
+2025-03-11 20:35:12.479 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:35:12.479 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:35:12.479 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute']
+2025-03-11 20:35:12.480 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:35:12.480 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': ''}
+2025-03-11 20:35:12.480 | INFO     | app.agent.base:run:137 - Executing step 2/20
+2025-03-11 20:35:25.713 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:35:25.713 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:35:25.714 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute']
+2025-03-11 20:35:25.714 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:35:25.714 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': '22121212122\n'}
+2025-03-11 20:35:25.716 | INFO     | app.agent.base:run:137 - Executing step 3/20
+2025-03-11 20:36:44.255 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:36:44.256 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:36:44.256 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute']
+2025-03-11 20:36:44.256 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:36:44.256 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': '22121212122\n'}
+2025-03-11 20:36:44.256 | INFO     | app.agent.base:run:137 - Executing step 4/20
+2025-03-11 20:37:00.795 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:37:00.795 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 1 tools to use
+2025-03-11 20:37:00.795 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute']
+2025-03-11 20:37:00.795 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:37:00.797 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': '22121212122\n'}
+2025-03-11 20:37:00.797 | INFO     | app.agent.base:run:137 - Executing step 5/20
+2025-03-11 20:37:11.569 | INFO     | app.agent.toolcall:think:53 - ✨ Manus's thoughts: 
+2025-03-11 20:37:11.570 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus selected 2 tools to use
+2025-03-11 20:37:11.570 | INFO     | app.agent.toolcall:think:58 - 🧰 Tools being prepared: ['python_execute', 'terminate']
+2025-03-11 20:37:11.570 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'python_execute'...
+2025-03-11 20:37:11.570 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'python_execute' completed its mission! Result: Observed output of cmd `python_execute` executed:
+{'observation': '22121212122\n'}
+2025-03-11 20:37:11.571 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 Activating tool: 'terminate'...
+2025-03-11 20:37:11.571 | INFO     | app.agent.toolcall:_handle_special_tool:172 - 🏁 Special tool 'terminate' has completed the task!
+2025-03-11 20:37:11.571 | INFO     | app.agent.toolcall:act:113 - 🎯 Tool 'terminate' completed its mission! Result: Observed output of cmd `terminate` executed:
+The interaction has been completed with status: success
+2025-03-11 20:37:11.571 | INFO     | app.web.api:websocket_endpoint:184 - 发送结果: 长度 1098 字符
