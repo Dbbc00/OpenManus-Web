@@ -36,7 +36,8 @@ OpenManus Web界面由李璇开发，旨在为OpenManus框架提供一个易用�
 
 ## 截图展示
 
-![OpenManus Web界面](screenshots/main_interface.jpg)
+![image](https://github.com/user-attachments/assets/96ef5bd1-12e6-4975-838e-422e76caed94)
+
 
 ## 安装指南
 
